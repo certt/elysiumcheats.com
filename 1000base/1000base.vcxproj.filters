@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{fbaa959c-a478-454a-ba15-3660f8dd9338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{1e88010e-cd48-441e-bd86-89a509d9b44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{1c2ab852-51d0-435c-a8e8-6e872d417d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Base">
+      <UniqueIdentifier>{19477b06-4a43-4601-b319-8fbc83264932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Game">
+      <UniqueIdentifier>{3e2ed32f-6b41-4a2c-a924-469c938723e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\ImGui">
+      <UniqueIdentifier>{4de47abe-0e8c-4af8-a714-458d27467111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces">
+      <UniqueIdentifier>{d9db0e68-8535-43ca-8af1-0ae566744e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils">
+      <UniqueIdentifier>{bc9c1c77-245a-469d-8e1d-a36b6a53257d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\Valve">
+      <UniqueIdentifier>{15ee99c0-05f8-4de8-ae63-43bbc7c60b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Math &amp; Stuff">
+      <UniqueIdentifier>{e66f6568-ff3c-4dbb-afb4-a1e5d6fc34ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Hacks">
+      <UniqueIdentifier>{a1ebad4b-442a-4583-8ff1-cd29c9a8ee6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Menu">
+      <UniqueIdentifier>{3162387d-f2ae-4113-9145-0a36272b6d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\Config">
+      <UniqueIdentifier>{bffec3dd-10d3-45fb-ae84-b1ca0ca9d19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Math &amp; Stuff\cs_string">
+      <UniqueIdentifier>{73b37651-c4e3-4cf5-b721-6468545e8a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\Valve\Models &amp; Material">
+      <UniqueIdentifier>{09c44141-cc49-433b-a037-0ffa4120ec2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Hacks\Changers">
+      <UniqueIdentifier>{a84467c1-2abc-4162-88e8-de494cfa5e45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_dx9.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>SDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>SDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IVEngineClient.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>SDK\Math &amp; Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="VMatrix.h">
+      <Filter>SDK\Math &amp; Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>SDK\Math &amp; Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntity.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="CHandle.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManager.h">
+      <Filter>SDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ImRender.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ABytes.h">
+      <Filter>SDK\Math &amp; Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenu.h">
+      <Filter>Features\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>SDK\Math &amp; Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>SDK\Math &amp; Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientNetworkable.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientDefence.h">
+      <Filter>SDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineSound.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IniWriter.h">
+      <Filter>SDK\Utils\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader.h">
+      <Filter>SDK\Utils\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowManager.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="cs_strenc.h">
+      <Filter>SDK\Math &amp; Stuff\cs_string</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_fnv1.h">
+      <Filter>SDK\Math &amp; Stuff\cs_string</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_pcg32.h">
+      <Filter>SDK\Math &amp; Stuff\cs_string</Filter>
+    </ClInclude>
+    <ClInclude Include="IVRenderView.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterialSystem.h">
+      <Filter>SDK\Interfaces\Valve\Models &amp; Material</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelRender.h">
+      <Filter>SDK\Interfaces\Valve\Models &amp; Material</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfo.h">
+      <Filter>SDK\Interfaces\Valve\Models &amp; Material</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterial.h">
+      <Filter>SDK\Interfaces\Valve\Models &amp; Material</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEvent.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinParser.h">
+      <Filter>SDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vdf.h">
+      <Filter>SDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ICvar.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientRenderable.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientThinkable.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientUnknown.h">
+      <Filter>SDK\Interfaces\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="XorSTR.h">
+      <Filter>SDK\Math &amp; Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Features\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="corect_math.h">
+      <Filter>SDK\Math &amp; Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerbot.h">
+      <Filter>Features\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Features\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Changers.h">
+      <Filter>Features\Hacks\Changers</Filter>
+    </ClInclude>
+    <ClInclude Include="Initialize.h">
+      <Filter>SDK\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_dx9.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>SDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>SDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Hooks\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>SDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ImRendering.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenu.cpp">
+      <Filter>Features\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc.cpp">
+      <Filter>Hooks\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientDefence.cpp">
+      <Filter>SDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IniWriter.cpp">
+      <Filter>SDK\Utils\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="IniReader.cpp">
+      <Filter>SDK\Utils\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="IMaterialSystem.cpp">
+      <Filter>SDK\Interfaces\Valve\Models &amp; Material</Filter>
+    </ClCompile>
+    <ClCompile Include="IVModelRender.cpp">
+      <Filter>SDK\Interfaces\Valve\Models &amp; Material</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinParser.cpp">
+      <Filter>SDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Features\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMove.cpp">
+      <Filter>Hooks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EmitSound.cpp">
+      <Filter>Hooks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FOV-Override.cpp">
+      <Filter>Hooks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FireEvent.cpp">
+      <Filter>Hooks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Present.cpp">
+      <Filter>Hooks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Features\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Features\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Hooks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStageNotify.cpp">
+      <Filter>Hooks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinChanger.cpp">
+      <Filter>Features\Hacks\Changers</Filter>
+    </ClCompile>
+    <ClCompile Include="GloveChanger.cpp">
+      <Filter>Features\Hacks\Changers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

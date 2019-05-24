@@ -1,0 +1,80 @@
+﻿  Aimbot.cpp
+c:\elyssources\1000base\aimbot.cpp(35): warning C4018: '>=': signed/unsigned mismatch
+  Chams.cpp
+  ClientDefence.cpp
+  CMenu.cpp
+c:\elyssources\1000base\skinparser.h(351): warning C4018: '<': signed/unsigned mismatch
+c:\elyssources\1000base\cmenu.cpp(1184): warning C4129: 'V': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1184): warning C4129: 'O': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1184): warning C4129: 'A': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1184): warning C4129: 'B': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1188): warning C4129: 'O': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1188): warning C4129: 'R': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1188): warning C4129: 'K': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1188): warning C4129: 'I': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1192): warning C4129: 'C': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1192): warning C4129: 'O': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1192): warning C4129: 'D': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1192): warning C4129: 'A': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1196): warning C4129: 'T': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1196): warning C4129: 'P': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1200): warning C4129: 'C': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1200): warning C4129: 'B': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1200): warning C4129: 'F': unrecognized character escape sequence
+c:\elyssources\1000base\cmenu.cpp(1200): warning C4129: 'M': unrecognized character escape sequence
+  CreateMove.cpp
+  EmitSound.cpp
+  GloveChanger.cpp
+  Present.cpp
+  EntryPoint.cpp
+  FireEvent.cpp
+c:\elyssources\1000base\fireevent.cpp(984): warning C4309: 'initializing': truncation of constant value
+  FOV-Override.cpp
+  FrameStageNotify.cpp
+  IMaterialSystem.cpp
+  IniReader.cpp
+c:\elyssources\1000base\inireader.cpp(22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\elyssources\1000base\inireader.cpp(20): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\elyssources\1000base\inireader.cpp(30): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  IniWriter.cpp
+c:\elyssources\1000base\iniwriter.cpp(12): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\elyssources\1000base\iniwriter.cpp(18): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\elyssources\1000base\iniwriter.cpp(24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  IVModelRender.cpp
+  SkinChanger.cpp
+  SkinParser.cpp
+c:\elyssources\1000base\skinparser.h(53): warning C4244: 'argument': conversion from 'char32_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=char16_t
+          ]
+c:\elyssources\1000base\skinparser.h(58): warning C4244: 'initializing': conversion from 'char32_t' to 'char16_t', possible loss of data
+c:\elyssources\1000base\skinparser.h(351): warning C4018: '<': signed/unsigned mismatch
+c:\elyssources\1000base\skinparser.h(325): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+  imgui.cpp
+  imgui_draw.cpp
+  Generating Code...
+c:\elyssources\1000base\skinparser.h(707): warning C4715: 'valve_parser::Document::identify': not all control paths return a value
+c:\elyssources\1000base\aimbot.cpp(241): warning C4715: 'lAimbot::ClosestBone': not all control paths return a value
+  Compiling...
+  imgui_dx9.cpp
+  ImRendering.cpp
+c:\elyssources\1000base\imrendering.cpp(296): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Interfaces.cpp
+  Misc.cpp
+  NetVarManager.cpp
+  Triggerbot.cpp
+c:\elyssources\1000base\triggerbot.cpp(17): warning C4018: '>': signed/unsigned mismatch
+  Utils.cpp
+c:\elyssources\1000base\skinparser.h(351): warning C4018: '<': signed/unsigned mismatch
+  Visuals.cpp
+c:\elyssources\1000base\visuals.cpp(502): warning C4305: '+=': truncation from 'double' to 'float'
+  WndProc.cpp
+  Generating Code...
+  1000base.vcxproj -> C:\elyssources\Debug\d3d9.dll
